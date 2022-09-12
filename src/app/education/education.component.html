@@ -1,0 +1,17 @@
+<h3>Educación</h3>
+
+<table border="1">
+    <ul *ngFor="let edu of education">
+        <li>
+            <tr>
+                <td> {{ edu.fecha }} </td>
+            </tr>
+            <tr>
+                <td> {{ edu.titulo }} </td>
+            </tr>
+            <tr>
+                <td> {{ edu.escuela }} </td>
+            </tr>
+        </li>
+    </ul>
+</table>
